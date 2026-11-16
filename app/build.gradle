@@ -1,0 +1,25 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.franchicreative.umucity'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.franchicreative.umucity'
+        minSdk 26
+        targetSdk 35
+        versionCode 754
+        versionName '7.5.4'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            // For store distribution, replace with your own release signing configuration.
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
