@@ -8,8 +8,8 @@ android {
         applicationId 'com.franchicreative.umucity'
         minSdk 26
         targetSdk 35
-        versionCode 754
-        versionName '7.5.4'
+        versionCode 760
+        versionName '7.6.0'
     }
 
     buildTypes {
